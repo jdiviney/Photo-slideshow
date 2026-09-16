@@ -1,0 +1,12 @@
+{
+  "domain": "album_slideshow",
+  "name": "Album Slideshow Camera",
+  "codeowners": ["@eyalgal"],
+  "config_flow": true,
+  "dependencies": ["http", "frontend", "media_source"],
+  "documentation": "https://github.com/eyalgal/album_slideshow",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/eyalgal/album_slideshow/issues",
+  "requirements": ["Pillow", "PyNaCl>=1.5.0"],
+  "version": "1.10.0"
+}
